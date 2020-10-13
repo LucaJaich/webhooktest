@@ -7,7 +7,7 @@ var pusher = new Pusher({
   cluster: 'us2',
 });
 
-console.log('probando')
+console.log('que onda')
 
 exports.handler = async (event) => {
     pusher.trigger('my-channel', 'my-event', {
